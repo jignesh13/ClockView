@@ -1,6 +1,7 @@
 # ClockView
 clockwidget with real time and animation
-you can edit source code based on your requirment please look at speedometerview.java it easy to customize needle,guage and all other stuff
+
+you can easily edit source code based on your requirment please look at clockview.java it easy to customize
 
 <image src=https://user-images.githubusercontent.com/20221469/58963056-1cedc980-87ca-11e9-9134-eb03611694e3.gif
  width=225 height=400>
@@ -9,22 +10,16 @@ you can edit source code based on your requirment please look at speedometerview
 
 ### how to use
 ```xml
- <com.example.speedometer.SpeedoMeterView
-        android:layout_width="300dp"
-        android:layout_height="300dp"
-        android:id="@+id/speedometerview"
+<com.example.clockviewExample.ClockView
+        android:layout_width="350dp"
+        android:layout_height="350dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
 ```
-### how to increase speed
-```java
-      SpeedoMeterView speedoMeterView=findViewById(R.id.speedometerview);
-      speedoMeterView.setSpeed(60,true);//speed set 0 to 140
-```
- 
+
  
 ##  Developer
   jignesh khunt
