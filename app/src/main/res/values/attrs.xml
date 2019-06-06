@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MyCustomView">
+        <attr name="backcolor" format="color"/>
+        <attr name="hourcolor" format="color"/>
+        <attr name="mincolor" format="color"/>
+        <attr name="seccolor" format="color"/>
+        <attr name="dotcolor" format="color"/>
+        <attr name="txtcolor" format="color"/>
+        <attr name="backimage" format="reference|color"/>
+        <attr name="removeborder" format="boolean"/>
+
+    </declare-styleable>
+
+</resources>
