@@ -3,7 +3,7 @@ clockwidget with real time and animation
 
 you can easily edit source code based on your requirment please look at clockview.java it easy to customize
 
-<image src=https://drive.google.com/file/d/1XmAKAJDiquy2G-G9gLEi2iYVOl5ACU7F/view?usp=sharing
+<image src=/clockk.gif
  width=225 height=400>
  
 **note:** use only square view
