@@ -1,4 +1,41 @@
 apply plugin: 'com.android.library'
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.github.dcendents:android-maven-gradle-plugin:1.4.1'
+        classpath 'com.jfrog.bintray.gradle:gradle-bintray-plugin:1.7.3'
+    }
+}
+
+apply plugin: 'com.android.library'
+apply plugin: 'com.github.dcendents.android-maven'
+apply plugin: 'com.jfrog.bintray'
+
+ext {
+    bintrayRepo = 'clockview'
+    bintrayName = 'clockview'
+
+    publishedGroupId = 'org.jignesh13.widget'
+    libraryName = 'clockview'
+    artifact = 'clockview'
+
+    libraryDescription = 'This view custom clockview'
+
+    siteUrl = 'https://github.com/jignesh13/ClockView'
+    gitUrl = 'https://github.com/jignesh13/ClockView.git'
+
+    libraryVersion = '2.0'
+
+    developerId = 'jignesh13'
+    developerName = 'jignesh khunt'
+    developerEmail = 'jigneshkhunt13@gmail.com'
+
+    licenseName = 'The Apache Software License, Version 2.0'
+    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    allLicenses = ["Apache-2.0"]
+}
 
 android {
     compileSdkVersion 28
@@ -32,3 +69,4 @@ dependencies {
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
 }
+apply from: 'https://raw.githubusercontent.com/jignesh13/ClockView/master/script.gradle'
