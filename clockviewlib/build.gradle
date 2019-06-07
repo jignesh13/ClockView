@@ -17,8 +17,8 @@ ext {
     bintrayRepo = 'clockview'
     bintrayName = 'clockview'
 
-    publishedGroupId = 'org.jignesh13.widget'
-    libraryName = 'clockview'
+    publishedGroupId = 'com.clock.clockviewlib'
+    libraryName = 'Clockview'
     artifact = 'clockview'
 
     libraryDescription = 'This view custom clockview'
