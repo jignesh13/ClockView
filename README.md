@@ -33,7 +33,7 @@ clockView.setbackImageResource(R.mipmap.pexelsmip);//set background image resour
 clockView.setborder(true);//add or remove outline border
 clockView.setHourcolor(Color.WHITE);//hour needle color change
 clockView.setMincolor(Color.WHITE);//min needle color change
-clockView.setSeccolor(Color.WHITE);//sec needle color change
+clockView.setSeccolor(Color.RED);//sec needle color change
 clockView.setTextcolor(Color.WHITE);//dot and next color change
 
 ```
