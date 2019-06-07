@@ -13,6 +13,13 @@ you can easily edit source code based on your requirment please look at clockvie
 <com.example.clockviewExample.ClockView
         android:layout_width="350dp"
         android:layout_height="350dp"
+        app:backimage="#fff"
+        app:removeborder="false"
+        app:hourcolor="#000"
+        app:mincolor="#000"
+        app:seccolor="#FF0000"
+        app:txtcolor="#000"
+        app:dotcolor="#000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
