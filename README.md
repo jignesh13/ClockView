@@ -27,6 +27,11 @@ you can easily edit source code based on your requirment please look at clockvie
 
 ```
 
+```java
+ClockView clockView=findViewById(R.id.clockView);
+clockView.setbackImageResource(R.mipmap.pexelsmip);//set background image resource or color resource
+clockView.setborder(true);//add or remove outline border
+```
  
 ##  Developer
   jignesh khunt
