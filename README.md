@@ -3,7 +3,7 @@ clockwidget with real time and animation
 
 you can easily edit source code based on your requirment please look at clockview.java it easy to customize
 
-<image src=https://user-images.githubusercontent.com/20221469/58963056-1cedc980-87ca-11e9-9134-eb03611694e3.gif
+<image src=/clockk.gif
  width=225 height=400>
  
 **note:** use only square view
@@ -13,6 +13,13 @@ you can easily edit source code based on your requirment please look at clockvie
 <com.clock.clockviewlib.ClockView
         android:layout_width="350dp"
         android:layout_height="350dp"
+        app:backimage="#fff"
+        app:removeborder="false"
+        app:hourcolor="#000"
+        app:mincolor="#000"
+        app:seccolor="#FF0000"
+        app:txtcolor="#000"
+        app:dotcolor="#000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -20,6 +27,16 @@ you can easily edit source code based on your requirment please look at clockvie
 
 ```
 
+```java
+ClockView clockView=findViewById(R.id.clockView);
+clockView.setbackImageResource(R.mipmap.pexelsmip);//set background image resource or color resource
+clockView.setborder(true);//add or remove outline border
+clockView.setHourcolor(Color.WHITE);//hour needle color change
+clockView.setMincolor(Color.WHITE);//min needle color change
+clockView.setSeccolor(Color.RED);//sec needle color change
+clockView.setTextcolor(Color.WHITE);//dot and next color change
+
+```
  
 ##  Developer
   jignesh khunt
