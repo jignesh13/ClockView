@@ -10,7 +10,7 @@ you can easily edit source code based on your requirment please look at clockvie
 
 ### how to use
 ```xml
-<com.example.clockviewExample.ClockView
+<com.clock.clockviewlib.ClockView
         android:layout_width="350dp"
         android:layout_height="350dp"
         app:layout_constraintBottom_toBottomOf="parent"

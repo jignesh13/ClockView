@@ -1,4 +1,4 @@
-package com.example.clockviewExample;
+package com.clock.clockviewlib;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -20,6 +20,7 @@ import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
 import android.os.Build;
 import android.os.Handler;
+import android.support.annotation.ColorInt;
 import android.support.annotation.DrawableRes;
 import android.support.v4.content.ContextCompat;
 import android.text.Layout;
@@ -67,23 +68,24 @@ public class ClockView extends View{
 
     }
 
-    public void setTextcolor(int textcolor) {
+    public void setTextcolor(@ColorInt int textcolor) {
         this.textcolor = textcolor;
         this.dotcolor=textcolor;
         init();
     }
 
-    public void setHourcolor(int hourcolor) {
+
+    public void setHourcolor(@ColorInt int hourcolor) {
         this.hourcolor = hourcolor;
 
     }
 
-    public void setMincolor(int mincolor) {
+    public void setMincolor(@ColorInt int mincolor) {
         this.mincolor = mincolor;
 
     }
 
-    public void setSeccolor(int seccolor) {
+    public void setSeccolor(@ColorInt int seccolor) {
         this.seccolor = seccolor;
 
     }
