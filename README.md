@@ -31,6 +31,11 @@ you can easily edit source code based on your requirment please look at clockvie
 ClockView clockView=findViewById(R.id.clockView);
 clockView.setbackImageResource(R.mipmap.pexelsmip);//set background image resource or color resource
 clockView.setborder(true);//add or remove outline border
+clockView.setHourcolor(Color.WHITE);//hour needle color change
+clockView.setMincolor(Color.WHITE);//min needle color change
+clockView.setSeccolor(Color.WHITE);//sec needle color change
+clockView.setTextcolor(Color.WHITE);//dot and next color change
+
 ```
  
 ##  Developer
