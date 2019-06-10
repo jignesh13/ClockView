@@ -8,6 +8,25 @@ you can easily edit source code based on your requirment please look at clockvie
  
 **note:** use only square view
 
+## Installation
+
+This is published on `jcenter` and you can use clockview as:
+
+```groovy
+// build.gradle
+buildscript {
+    repositories {
+        jcenter()
+    }
+    ...
+}
+
+// app/build.gradle
+dependencies {
+    compile 'com.clock.clockviewlib:clockviewlibrary:1.0.0'
+}
+```
+
 ### how to use
 ```xml
 <com.clock.clockviewlib.ClockView
