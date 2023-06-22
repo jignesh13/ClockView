@@ -1,12 +1,23 @@
 # ClockView
 clockwidget with real time and animation
 
-you can easily edit source code based on your requirment please look at clockview.java it easy to customize
+This repository contains an Android project that showcases a custom view called "ClockView". The ClockView is a customizable and interactive view that displays the current time and allows users to interact with the clock face.
 
 <image src=/clockk.gif
  width=225 height=400>
  
 **note:** use only square view
+
+## Features
+
+- Customizable clock face design, including background color, clock hands, and markings.
+- Real-time updating of the clock to display the current time accurately.
+- Interactive features such as rotating the clock hands, changing time zones, and setting alarms.
+- Integration with system time or the ability to set a custom time for demonstration purposes.
+- Customizable animations for smooth transitions and visual effects.
+- Support for different time formats and time zone conversions.
+- User-friendly UI with intuitive controls and gestures for an engaging experience.
+
 
 ## Installation
 
